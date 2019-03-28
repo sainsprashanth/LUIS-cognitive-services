@@ -1,0 +1,106 @@
+{
+  "luis_schema_version": "3.2.0",
+  "versionId": "0.1",
+  "name": "HumanResources",
+  "desc": "",
+  "culture": "en-us",
+  "tokenizerVersion": "1.0.0",
+  "intents": [
+    {
+      "name": "ApplyForJob"
+    },
+    {
+      "name": "GetJobInformation"
+    },
+    {
+      "name": "None"
+    }
+  ],
+  "entities": [],
+  "composites": [],
+  "closedLists": [],
+  "patternAnyEntities": [],
+  "regex_entities": [],
+  "prebuiltEntities": [],
+  "model_features": [],
+  "regex_features": [],
+  "patterns": [],
+  "utterances": [
+    {
+      "text": "any new jobs posted today?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "are there any new positions in the seattle office?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "are there any remote worker or telecommute jobs open for engineers?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "barking dogs are annoying",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "fill out application for job 123456",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "here is my c.v. for position 654234",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "here is my resume for the part-time receptionist post.",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "i'm applying for the art desk job with this paperwork.",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "i'm applying for the summer college internship in research and development in san diego",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "i'm looking for a co-working situation in the tampa office.",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "i'm requesting to submit my resume to the temporary position in the cafeteria.",
+      "intent": "ApplyForJob",
+      "entities": []
+    },
+    {
+      "text": "is there an internship in the san francisco office?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "is there any work with databases?",
+      "intent": "GetJobInformation",
+      "entities": []
+    },
+    {
+      "text": "order a pizza for me",
+      "intent": "None",
+      "entities": []
+    },
+    {
+      "text": "penguins in the ocean",
+      "intent": "None",
+      "entities": []
+    }
+  ],
+  "settings": []
+}
